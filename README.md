@@ -16,7 +16,7 @@ Please circulate widely among your research group and peers if planning to atten
 
 ## Description
 
-The `MRChallenge2024` Github page contains three R data frames with AUD as exposure and MDD as outcome:
+The `data` folder in `MRChallenge2024` Github page contains three R data frames with AUD as exposure and MDD as outcome:
 
 1. The data frame `AUD_MDD_AFR_TwoSampleMR.RData` contains cleaned summary data for the estimated associations between AUD and MDD from 196 genetic variants in African ancestry.
 
