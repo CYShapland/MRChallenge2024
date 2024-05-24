@@ -25,7 +25,7 @@ The `data` folder in `MRChallenge2024` Github page contains three R data frames 
 3. The data frame `AUD_MDD_SAS_TwoSampleMR.RData` contains cleaned summary data for the estimated associations between problematic alcohol use (PAU, a proxy to AUD) and MDD from 160 genetic variants in South Asian ancestry.
 
 ## QC and instrument extraction
-"TwoSampleMR" R package v0.6.3 was used to clean and format the raw summary data. Unless specified below, default options were implemented. More details and guidance can be found at https://mrcieu.github.io/TwoSampleMR/index.html. 
+`TwoSampleMR` R package v0.6.3 was used to clean and format the raw summary data. Unless specified below, default options were implemented. More details and guidance can be found at https://mrcieu.github.io/TwoSampleMR/index.html. 
 
 ### Exposure 
 It is important to note that only problematic alcohol use (PAU) is available for SAS ancestry summary data. 
