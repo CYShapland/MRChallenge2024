@@ -36,6 +36,9 @@ The clumping significant level for index SNPs was set at $5 \times 10^{-5}$ with
 ### Outcome
 The betas within is log odds ratio from a se-weighted meta-analysis for the effect allele and the sample size is the effective sample size for each variant (calculated as 4/(1/Number of case + 1/Number of control)).
 
+### Harmonise
+When harmonising exposure and outcome data, option "Try to infer the forward strand alleles using allele frequency information" was used in `harmonise_data` function.
+
 ## Citation
 
 For this challenge we used summary data previously published in Meng et al (1) and Zhou et al (2).
