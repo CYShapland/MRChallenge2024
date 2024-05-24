@@ -47,6 +47,9 @@ For this challenge we used summary data previously published in Meng et al (1) a
 
 2. Zhou, H., Kember, R.L., Deak, J.D. et al. Multi-ancestry study of the genetics of problematic alcohol use in over 1 million individuals. Nat Med 29, 3184–3192 (2023). https://doi.org/10.1038/s41591-023-02653-5
 
+## Acknowledgements
+I would like to thank Dr Hannah Jones and Dr Christina Dardani for sharing their expertise in their field. TwoSampleMR team for their user-friendly package and quick problem solve. 
+
 ## License
 
 This project is licensed under GNU GPL v3.
