@@ -16,7 +16,7 @@ Please circulate widely among your research group and peers if planning to atten
 
 ## Description
 
-The `MRChallenge2024` Github page contains three data frames:
+The `MRChallenge2024` Github page contains three R data frames:
 
 1. The data frame `Challenge_dat` contains summary data for the estimated associations between 118 metabolite risk factors and 150 genetic variants, with metabolite information quantified using nuclear magnetic resonance (NMR) spectroscopy metabolomics. The data also includes information on 7 outcomes; age-related macular degeneration, alzheimers's disease, type 2 diabetes, Ischemic stroke, large artery stroke, cardioembolic stroke, and small vessel stroke.
 
@@ -24,6 +24,9 @@ The `MRChallenge2024` Github page contains three data frames:
 
 3. Running the command `vignette("challenge")` will display a document giving a detailed description of the data and broad aims of the data challenge.
 
+## QC and instrument extraction
+
+### test
 
 ## Citation
 
