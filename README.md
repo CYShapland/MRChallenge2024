@@ -16,17 +16,25 @@ Please circulate widely among your research group and peers if planning to atten
 
 ## Description
 
-The `MRChallenge2024` Github page contains three R data frames:
+The `MRChallenge2024` Github page contains three R data frames with AUD as exposure and MDD as outcome:
 
-1. The data frame `Challenge_dat` contains summary data for the estimated associations between 118 metabolite risk factors and 150 genetic variants, with metabolite information quantified using nuclear magnetic resonance (NMR) spectroscopy metabolomics. The data also includes information on 7 outcomes; age-related macular degeneration, alzheimers's disease, type 2 diabetes, Ischemic stroke, large artery stroke, cardioembolic stroke, and small vessel stroke.
+1. The data frame `AUD_MDD_AFR_TwoSampleMR.RData` contains cleaned summary data for the estimated associations between AUD and MDD from 196 genetic variants in African ancestry.
 
-2. The data frame `NMRA_dat` contains the abbreviation, full name, overall heritability of the trait, and classification of each NMR trait.
+2. The data frame `AUD_MDD_EAS_TwoSampleMR.RData` contains cleaned summary data for the estimated associations between AUD and MDD from 182 genetic variants in East Asian ancestry.
 
-3. Running the command `vignette("challenge")` will display a document giving a detailed description of the data and broad aims of the data challenge.
+3. The data frame `AUD_MDD_SAS_TwoSampleMR.RData` contains cleaned summary data for the estimated associations between problematic alcohol use (PAU, a proxy to AUD) and MDD from 160 genetic variants in South Asian ancestry.
 
 ## QC and instrument extraction
+"TwoSampleMR" R package v0.6.3 was used to clean and format the raw summary data. More details and guidance can be found at https://mrcieu.github.io/TwoSampleMR/index.html. 
 
-### test
+### Exposure 
+It is important to note that only problematic alcohol use (PAU) is available for SAS ancestry summary data. 
+
+### Instruments for exposure
+The clumping significant level for index SNPs was set at $5 \times 10^{-5}$ with 10000 clumping kb window and $r^2$ threshold of 0.001. The SNPs in each datasets (above) contains SNPs with p-value of $5 \times 10^{-5}$ for at least one of the ancestries. The Linkage disequilibrium is calculated using 1000 Genomes data. The genetic corordinates is on the human genome reference sequence (build 37).     
+
+### Outcome
+The betas within is log odds ratio from a se-weighted meta-analysis for the effect allele and the sample size is the effective sample size for each variant (calculated as 4/(1/Number of case + 1/Number of control)).
 
 ## Citation
 
