@@ -4,7 +4,7 @@ This Github page provides necessary data for the 2024 Mendelian Randomization (M
 
 The MR Data Challenge is an opportunity to explore and develop innovative approaches to causal inference using genetic association data taken from non-european ancestry.
 
-At a glance, these data comprise information on major depressive disorder (MDD) and alcohol use disorder (AUD) their association within African (AFR), East Asian (EAS) and Southeast Asian (SAS) population.
+At a glance, these data comprise information on major depressive disorder (MDD) and alcohol use disorder (AUD) their association within African (AFR), East Asian (EAS) and South Asian (SAS) population.
 
 Researchers attending the upcoming 2024 Mendelian randomization conference in Bristol from 19th to 21st June are encouraged to make use of all (or any part) of these data to illustrate new methodology and to compare or explain existing methods as part of an oral presentation.  
 
